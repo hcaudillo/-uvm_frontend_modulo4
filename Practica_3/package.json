@@ -1,8 +1,17 @@
 {
-  "type": "module",
   "dependencies": {
     "chalk": "^2.4.1",
     "validator": "^10.8.0",
     "yargs": "^17.2.1"
-  }
+  },
+  "name": "practica_3",
+  "version": "1.0.0",
+  "description": "Practica 3. Modulo 4. Diplomado FrontEnd",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ISC Hugo Caudillo Reyes",
+  "license": "ISC"
 }
