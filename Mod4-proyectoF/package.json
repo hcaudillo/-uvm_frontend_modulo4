@@ -1,0 +1,16 @@
+{
+  "name": "mod4-proyectof",
+  "version": "1.0.0",
+  "description": "Web para traer el clima de una ciudad en base a su pais",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ISC Hugo Caudillo Reyes",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}

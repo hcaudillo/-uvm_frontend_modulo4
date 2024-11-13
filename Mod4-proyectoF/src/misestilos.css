@@ -1,0 +1,96 @@
+
+
+
+h1 {
+    color:#a1cc1b;
+    font-weight: bold;
+}
+
+.encabezado {
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: nowrap;*/
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+.cuerpo {
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: nowrap;*/
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+h2 {
+    color: red;
+    font-size: 20px;
+}
+
+
+
+.pie {
+    background-color: rgb(128, 128, 128);
+    line-height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+   
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.objetos {
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: nowrap;*/
+    flex-flow: row wrap;
+    flex-grow: auto;
+    justify-content: space-around; 
+
+}
+
+
+.opciones {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around; 
+    border: 2px solid lightsalmon;  
+    padding: 5px;  
+    box-shadow: rgb(150, 150, 150)10px 10px;
+}
+
+
+
+.nombre {
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia;
+    line-height: 30px;
+    color: lightskyblue;
+    text-align: center;
+}
+
+.descripcion {
+    display: flex;
+    flex-flow: column wrap;
+    width: 300px;  
+    text-align: justify;
+}
+
+.image {
+    float: center;
+    
+  }

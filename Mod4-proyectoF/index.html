@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf8">
+    <meta name="description" content="Actividad Etiquetas-html" >
+    <meta name="keywords" content=" HTML5 , CSS3, JAVASCRIPT" >
+    <title>Sitio del clima.. By HcR </title>
+    <link href="./src/misestilos.css" rel="stylesheet">
+    <script type="text/javascript" src="./src/clima.js"></script>
+  </head>
+  <body>
+    <section class="encabezado"> 
+        <header>   
+            <h1> El Clima App  (HcR)</h1>
+        </header>
+    </section>
+    <section class="cuerpo">
+        <div>
+            <div>
+                <a href="/">Weather</a>
+                <a href="/about">About</a>
+                <a href="/help">Help</a>
+            </div>
+            <br>
+            <label> Sitio dinámico para conocer el clima a partir de un país </label>
+        </div>
+    </section>
+    <section class="cuerpo">    
+        <div>
+            <br>
+            <label> Elije el país: </label>
+            <input type="text" id="pais" name="pais" placeholder="Pais a revisar">
+            <button onclick="getClima()">Buscar</button><br>
+        </div>
+    </section>
+    <br>
+    <div id="clima" style="display:none">
+        <section class="cuerpo">
+            <span class="opciones">
+                <img class="image" src="" alt="Clima" width="160"  height="200" id="icono"   />
+                <div class="nombre" id="nombre"> </div>
+                <br>
+                <span class="descripcion" id="descripcion">
+                </span>
+                <br>
+            </span>
+        </section>
+    </div>
+
+    <div>
+        <br>
+        <br>
+        <footer class="pie"> 
+            Diplomado FrontEnd Web Developer-UVM(2024)
+        </footer>
+    </div>
+   
+  </body>
+  </html>
